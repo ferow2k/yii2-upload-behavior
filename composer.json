@@ -1,5 +1,5 @@
 {
-  "name": "yii-dream-team/yii2-upload-behavior",
+  "name": "maxinuss/yii2-upload-behavior",
   "type": "yii2-extension",
   "description": "Yii2 file/image upload behavior for ActiveRecord",
   "keywords": [
@@ -24,12 +24,12 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
-    "masterexploder/phpthumb": "*"
+    "maxinuss/phpthumb": "*"
   },
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/yii-dream-team/PHPThumb"
+      "url": "https://github.com/maxinuss/PHPThumb"
     }
   ],
   "autoload": {
