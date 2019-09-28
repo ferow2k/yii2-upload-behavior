@@ -10,11 +10,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 
-    php composer.phar require --prefer-dist yii-dream-team/yii2-upload-behavior "*"
+    php composer.phar require --prefer-dist maxinuss/yii2-upload-behavior "*"
 
 or add
 
-    "yii-dream-team/yii2-upload-behavior": "*"
+    "maxinuss/yii2-upload-behavior": "*"
 
 to the `require` section of your composer.json.
  
