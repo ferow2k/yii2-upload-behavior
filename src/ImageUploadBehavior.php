@@ -135,7 +135,7 @@ class ImageUploadBehavior extends FileUploadBehavior
                     unset($config['processor']);
                 } else {
                     $processor = function (GD $thumb) use ($config) {
-                        $thumb->adaptiveResize($config['width'], $config['height']);
+                        $thumb->resize($config['width'], $config['height']);
                     };
                 }
 
